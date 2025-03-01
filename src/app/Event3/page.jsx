@@ -3,7 +3,7 @@
 // import Link from 'next/link';
 import { FaRegCommentDots } from 'react-icons/fa';
 // import Chat from '../Chat/page'
-import LiveUpdates from '../LiveUpdates/page';
+// import LiveUpdates from '../LiveUpdates/page';
 import Link from 'next/link';
 
 import V3TeaserSection from '../Component/Home/Teaser';
@@ -40,7 +40,7 @@ function Event3() {
         </section>
 
         {/* Live Updates Section */}
-        <section className="container mx-auto px-6 py-16">
+        {/* <section className="container mx-auto px-6 py-16">
           <div className="max-w-4xl mx-auto bg-gradient-to-r from-purple-500 to-blue-600 text-white p-8 rounded-2xl shadow-lg">
             <h2 className="text-4xl font-extrabold text-center mb-6">📢 Live Updates</h2>
             <p className="text-center text-lg mb-4 opacity-90">Stay updated with real-time event news!</p>
@@ -48,7 +48,7 @@ function Event3() {
               <LiveUpdates />
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Sponsors Section */}
         <section className="bg-gradient-to-b from-gray-900 to-black py-16 text-white">

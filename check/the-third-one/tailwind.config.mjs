@@ -1,5 +1,3 @@
-import { Anton, Kanit } from 'next/font/google';
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -12,12 +10,6 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-      },
-      fontFamily: {
-        kanit: ['Kanit', 'sans-serif'],
-        anton: ['Anton', 'sans-serif'],
-        playwrite: ['Playwrite NL Guides', 'sans-serif'],
-        sigmar: ['Sigmar', 'sans-serif'],
       },
     },
   },
