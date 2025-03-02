@@ -14,7 +14,7 @@ const Header = () => {
         {/* Navigation Menu on the Right on Desktop */}
         <nav className="hidden md:flex space-x-4  text-right">
           <Link href="/" onClick={() => setIsOpen(false)}className='hover:text-blue-600'>Home</Link>
-          <Link href="/Event1" onClick={() => setIsOpen(false)} className='hover:text-blue-600'>Event 1</Link>
+          <Link href="/PastEvents" onClick={() => setIsOpen(false)} className='hover:text-blue-600'>PastEvents</Link>
           <Link href="/Event2" onClick={() => setIsOpen(false)}className='hover:text-blue-600'>Event 2</Link>
           <Link href="/Event3" onClick={() => setIsOpen(false)}className='hover:text-blue-600'>Event 3</Link>
         </nav>
@@ -32,7 +32,7 @@ const Header = () => {
       {isOpen && (
         <div className="md:hidden bg-white shadow-md py-4 px-6 space-y-2">
           <Link href="/" className="block text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link href="/Event1" className="block text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Event 1</Link>
+          <Link href="/PastEvents" className="block text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>PastEvents</Link>
           <Link href="/Event2" className="block text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Event 2</Link>
           <Link href="/Event3" className="block text-gray-700 hover:text-blue-600" onClick={() => setIsOpen(false)}>Event 3</Link>
         </div>

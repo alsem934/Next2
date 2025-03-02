@@ -15,11 +15,11 @@ function Home2() {
 
     <>
       <HeroSection/>
-      <Sponsors/>
       <AboutSection/>
 
       <Organizers/>
       <Volunteers/>
+      <Sponsors/>
       <PastEventsSection/>
       </>
   )
