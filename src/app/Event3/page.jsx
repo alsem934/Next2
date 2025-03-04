@@ -30,7 +30,7 @@ function Event3() {
         <section className="flex items-center justify-center h-screen bg-gradient-to-r from-purple-600 to-blue-600 text-white">
           <div className="text-center p-6 md:p-12">
             <h1 className="text-4xl md:text-6xl font-extrabold mb-4 animate-bounce">Dev Meet Up 3!</h1>
-            <h1 className="text-4xl md:text-6xl font-extrabold mb-4 animate-bounce">🚀 Coming Soon!</h1>
+            {/* <h1 className="text-4xl md:text-6xl font-extrabold mb-4 animate-bounce">🚀 Coming Soon!</h1> */}
             <V3TeaserSection />
             <p className="text-lg md:text-2xl mb-6 opacity-90">Exciting things are on the way. Stay tuned!</p>
             <div className="flex justify-center">
