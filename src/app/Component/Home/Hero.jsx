@@ -1,6 +1,9 @@
 'use client';
 import Link from "next/link";
-import { Sigmar, Kanit, Playfair_Display } from 'next/font/google';
+// import chat page
+import Chat from "../Chat/Chat";
+// import icons
+import { FaRegCommentDots } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
@@ -16,21 +19,18 @@ const HeroSection = () => {
         <div className={`text-lg mb-8 md:text-xl lg:text-2xl `}>
           Connecting Developers, Building Communities.
         </div>
+//        {/* Floating Chat Button */}
 
-        <div className="justify-center flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0">
-          <Link
-            href="/past-events"
-            className="bg-black text-blue-500 px-8 py-3 rounded-lg transition duration-300 transform hover:scale-105 inline-block cursor-pointer max-w-xs break-words text-center"
-          >
-            Explore Past Events
-          </Link>
-          <Link
-            href="/event3"
-            className="bg-black text-blue-500 px-8 py-3 rounded-lg transition duration-300 transform hover:scale-105 inline-block cursor-pointer max-w-xs break-words text-center"
-          >
-            Join Event 3
-          </Link>
-        </div>
+        
+        <Link href="/Chat" className="fixed bottom-4 right-4 bg-blue-600 text-white p-4 rounded-full shadow-lg hover:bg-blue-700">
+          <div className="flex items-center">
+            <FaRegCommentDots className="text-green-500" size={24} />
+
+            <span className="ml-2">Your comment here</span>
+          </div>
+        </Link>
+
+        
 
         {/* Keynote Speakers Section */}
         <div className="mt-16 w-full">
